@@ -1,1 +1,109 @@
-/* your code here */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+.content {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo-details {
+  display: flex;
+  align-items: center;
+}
+
+.logo_name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.media-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.media-icons a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.link-boxes {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.box {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.box h3 {
+  border-bottom: 1px solid #555;
+  padding-bottom: 10px;
+}
+
+.box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.box ul li {
+  margin: 10px 0;
+}
+
+.box ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.box ul li a:hover {
+  text-decoration: underline;
+}
+
+.bottom-details {
+ 
+background-color:grey;
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+	
+}
+
+.bottom-details p,
+.bottom-details a {
+  color: white;
+  text-decoration: none;
+}
+
+.bottom-details a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .top {
+    flex-direction: column;
+    align-items: center;
+  }
+  .media-icons {
+    margin-top: 20px;
+  }
+  .link-boxes {
+    flex-direction: column;
+    align-items: center;
+  }
+}
