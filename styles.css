@@ -47,7 +47,6 @@ footer {
 }
 
 .box {
-  flex: 1;
   min-width: 200px;
   margin: 10px;
 }
